@@ -2,6 +2,7 @@ html {
   font-family:sans-serif;
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
+  border-top: 4px solid #4183c4;
 }
 
 .styleguide-reset {
@@ -170,10 +171,10 @@ html {
     margin-right: auto;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     &:before, &:after {
-    content: " ";
-    display: table;
+      content: " ";
+      display: table;
     }
 
     &:after {
@@ -212,12 +213,9 @@ html {
       border: 1px solid #d8d8d8;
       list-style: none;
       box-shadow: 0 0 5px rgba(0,0,0,.1);
-
-      &.floating {
-        position: fixed;
-        width: inherit;
-        top: 10px;
-      }
+      position: fixed;
+      width: inherit;
+      top: 22px;
 
       li {
         border-bottom: 1px solid #eee;
@@ -429,7 +427,7 @@ html {
         border-top: 1px solid #eee;
       }
 
-       .styleguide-modifier-name {
+      .styleguide-modifier-name {
         display: block;
         position: absolute;
         top: 0;
@@ -492,4 +490,4 @@ html {
   }
 }
 
-@import "github.css";
+@import "public/github.css";
