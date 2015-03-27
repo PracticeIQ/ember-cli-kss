@@ -16,7 +16,7 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.2.0",
     "broccoli-asset-rev": "0.3.1",
     "broccoli-caching-writer": "^0.5.2",
